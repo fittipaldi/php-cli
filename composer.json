@@ -1,0 +1,25 @@
+{
+  "name": "fittipaldi/php-cli",
+  "description": "system for use cli with PHP.",
+  "keywords": [
+    "php-cli",
+    "command line"
+  ],
+  "type": "project",
+  "authors": [
+    {
+      "name": "Gustavo Fittipaldi",
+      "email": "fittipaldi.gustavo@gmail.com"
+    }
+  ],
+  "require": {
+    "php": ">=5.6.4",
+    "symfony/console": "^3.4"
+  },
+  "autoload": {
+    "psr-4": {
+      "Cmds\\": "app/Cmds",
+      "Lib\\": "app/Lib"
+    }
+  }
+}
